@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표만들기</title>
+    <style>
+        table{
+            width: 670px;
+            /* 윗쪽 테두리선 넣기 */
+            border-top: 3px solid #002d5b;
+            /* 아래쪽 테두리선 넣기 */
+            border-bottom: 1px solid #bdbdbd;
+            th{
+                border: 1px solid #bdbdbd;
+                height: 52px;
+                width: 134px;
+                background: #f1f1f1;
+            }
+            td{
+                border: 1px solid #bdbdbd;
+                text-align: center;
+            }
+            .th1{
+                border-left: none;
+            }
+            .t1{
+                border-right: none;
+            }
+            .th0{
+                background: #f9f9f9;
+            }
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin: auto;
+            caption{
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            단위 : 억원
+        </caption>
+        <tr>
+            <th class="th1">
+                연도
+            </th>
+            <th>
+                합계
+            </th>
+            <th>
+                주택
+            </th>
+            <th>
+                토목
+            </th>
+            <th class="t1">
+                플랜트
+            </th>
+        </tr>
+        <tr>
+            <th class="th1 th0">
+                2023
+            </th>
+            <td>
+                148,894
+            </td>
+            <td>
+                94,543
+            </td>
+            <td>
+                19,745
+            </td>
+            <td class="t1">
+                34,606
+            </td>
+        </tr>
+        <tr>
+            <th class="th1 th0">
+                2022
+            </th>
+            <td>
+                118,944
+            </td>
+            <td>
+                92,291
+            </td>
+            <td>
+                9,193
+            </td>
+            <td class="t1">
+                17,460
+            </td>
+        </tr>
+        <tr>
+            <th class="th1 th0">
+                2021
+            </th>
+            <td>
+                105,443
+            </td>
+            <td>
+                68,887
+            </td>
+            <td>
+                11,211
+            </td>
+            <td class="t1">
+                25,345
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
