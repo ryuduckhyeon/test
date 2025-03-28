@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form과 관련된 태그 요소들</title>
+    <style>
+        li{
+            list-style: none;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                개인정보폼
+            </legend>
+            <ul>
+                <li>
+                    <input type="radio" name="gender" id="man" checked>
+                    <label for="man">
+                        남
+                    </label>
+                    <input type="radio" name="gender" id="woman">
+                    <label for="woman">
+                        여
+                    </label>
+                </li>
+                <li>
+                    <label for="travel">
+                        여행
+                    </label>
+                    <input type="checkbox" id="travel">
+
+                    <label for="movie">
+                        영화
+                    </label>
+                    <input type="checkbox" id="movie" checked>
+
+                    <label for="reading">
+                        독서
+                    </label>
+                    <input type="checkbox" id="reading">
+                </li>
+                <li>
+                    <label for="color">
+                        칼라 선택
+                    </label>
+                    <select name="" id="color">
+                        <option value="">
+                            ;;;;;색상을 선택하세요;;;;;
+                        </option>
+                        <option value="">
+                            빨강
+                        </option>
+                        <option value="">
+                            녹색
+                        </option>
+                        <option value="">
+                            파랑색
+                        </option>
+                    </select>
+                </li>
+                <li>
+                    <label for="">
+                        컬러 다중선택
+                    </label>
+                    <select name="" id="color" multiple>
+                        <option value="">
+                            ;;;;;색상을 선택하세요;;;;;
+                        </option>
+                        <option value="">
+                            빨강
+                        </option>
+                        <option value="">
+                            녹색
+                        </option>
+                        <option value="">
+                            파랑색
+                        </option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
