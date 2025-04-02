@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제1</title>
+    <style>
+        fieldset{
+            margin: 2px; border-color: #d7a75b;
+        }
+        legend{
+            color: #d7a75b;
+        }
+        label{
+            font-size: 15px;
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #eee;
+            
+        }
+        textarea{
+            width: 339px;
+            height: 36px;
+        }
+        input{
+            width: 177px;
+            height: 23px;
+        }
+        .ch1{
+            width: 13px;
+        }
+        .radio{
+            width: 13px;
+        }
+        .label1{
+            position: relative; top: -6px;
+        }
+        .label2{
+            position: relative; top: -6px;
+        }
+        .button{
+            width: 59px;
+            height: 24px;
+            background: #000;
+            text-align: center;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        상품 주문서
+    </h1>
+    <table>
+        <fieldset>
+            <legend>
+                개인정보
+            </legend>
+            <ul>
+                <li>
+                    <label for="name">
+                        이름 
+                    </label>
+                    <input type="text" name="" id="name" placeholder="여백없이 입력" required>
+                </li>
+                <li>
+                    <label for="password">
+                        비밀번호 
+                    </label>
+                    <input type="password" name="" id="password" placeholder="비밀번호를 입력하시오" required>
+                </li>
+            </ul>
+        </fieldset>
+    </table>
+    <table>
+        <fieldset>
+            <legend>
+                배송지 정보
+            </legend>
+            <ul>
+                <li>
+                    <label for="adressname">
+                        이름 
+                    </label>
+                    <input type="text" adressnamename="" id="adressname" required>
+                </li>
+                <li>
+                    <label for="">
+                        전화번호 
+                    </label>
+                    <select name="" id="">
+                        <option value="">
+                            ;;;;;;
+                        </option>
+                        <option value="">
+                            010
+                        </option>
+                        <option value="">
+                            0100
+                        </option>
+                        <option value="">
+                            011
+                        </option>
+                        <option value="">
+                            012
+                        </option>
+                        <option value="">
+                            0130
+                        </option>
+                        <option value="">
+                            0131
+                        </option>
+                        <option value="">
+                            0132
+                        </option>
+                        <option value="">
+                            0133
+                        </option>
+                        <option value="">
+                            01410
+                        </option>
+                        <option value="">
+                            01411
+                        </option>
+                        <option value="">
+                            01412
+                        </option>
+                        <option value="">
+                            01413
+                        </option>
+                        <option value="">
+                            01414
+                        </option>
+                        <option value="">
+                            01421
+                        </option>
+                        <option value="">
+                            01422
+                        </option>
+                        <option value="">
+                            01431
+                        </option>
+                        <option value="">
+                            01433
+                        </option>
+                        <option value="">
+                            01441
+                        </option>
+                        <option value="">
+                            01442
+                        </option>
+                        <option value="">
+                            01446
+                        </option>
+                        <option value="">
+                            015
+                        </option>
+                        <option value="">
+                            016
+                        </option>
+                        <option value="">
+                            017
+                        </option>
+                        <option value="">
+                            018
+                        </option>
+                        <option value="">
+                            019
+                        </option>
+                        <option value="">
+                            030
+                        </option>
+                        <option value="">
+                            050
+                        </option>
+                        <option value="">
+                            060
+                        </option>
+                        <option value="">
+                            070
+                        </option>
+                        <option value="">
+                            080
+                        </option>
+                    </select>
+                    -
+                    <input type="number" name="" id="" minlength="3" maxlength="4" required>
+                    -
+                    <input type="number" name="" id="" minlength="4" maxlength="4" required>
+                </li>
+                <li>
+                    <label for="">
+                        메모
+                    </label>
+                    <textarea name="" id="" rows="2" placeholder="여기에 메모를 입력하세요"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+    </table>
+    <table>
+        <fieldset>
+            <legend>
+                주문정보
+            </legend>
+            <ul>
+                <li>
+                    <label for="">
+                        과태말라 안티구아 (100g)
+                    </label>
+                    <input type="number" name="" id="">
+                    개
+                </li>
+                <li>
+                    <label for="">
+                        인도네시아 만델링 (100g)
+                    </label>
+                    <input type="number" name="" id="">
+                    개
+                </li>
+                <li>
+                    <label for="">
+                        탐라는도다 (블렌딩) (100g)
+                    </label>
+                    <input type="number" name="" id="">
+                    개
+                </li>
+                <li>
+                    <label for="01" class="label1">
+                        01 
+                    </label>
+                    <input type="checkbox" name="" id="01"  class="ch1">
+                    <label for="02" class="label1">
+                        02 
+                    </label>
+                    <input type="checkbox" name="" id="02" class="ch1">
+                    <label for="03" class="label1">
+                        03 
+                    </label>
+                    <input type="checkbox" name="" id="03" class="ch1">
+                    <label for="04" class="label1">
+                        04 
+                    </label>
+                    <input type="checkbox" name="" id="04" class="ch1">
+                </li>
+                <li>
+                    <label for="r01" class="label2">
+                        r01
+                    </label>
+                    <input type="radio" name="last" id="r01" class="radio">
+                    <label for="r02" class="label2">
+                        r02
+                    </label>
+                    <input type="radio" name="last" id="r02" class="radio">
+                    <label for="r03" class="label2">
+                        r03
+                    </label>
+                    <input type="radio" name="last" id="r03" class="radio">
+                    <label for="r04" class="label2">
+                        r04
+                    </label>
+                    <input type="radio" name="last" id="r04" class="radio">
+                </li>
+            </ul>
+        </fieldset>
+    </table>
+    <table>
+        <fieldset>
+            <legend>
+                버튼모음
+            </legend>
+            <input type="submit" value="주문하기" class="button">
+        </fieldset>
+    </table>
+</body>
+</html>

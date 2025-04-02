@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html:5에서 추가된 form</title>
+    <style>
+        body{
+            background: #222;
+            color: #fff;
+            li{
+                margin-bottom: 10px;
+                list-style: none;
+                .input1{
+                    width: 44px;
+                    height: 22px;
+                }
+                .input2{
+                    width: 132px;
+                    height: 22px;
+                }
+                .input3{
+                    width: 132px;
+                    height: 22px;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        입력요소의 종류와 속성
+    </h1>
+    <form action="">
+        <fieldset>
+            <legend>
+                HTML:5입력요소
+            </legend>
+            <ul>
+                <li>
+                    <label for="ID">ID : </label>
+                    <!-- maxlength : 폼 안의 글자수를 제한할때 -->
+                     <!-- required : 폼 안에 반드시 입력해야 할때 -->
+                    <input type="text" name="" id="ID" class="input1" maxlength="4" autofocus required>
+                </li>
+                <li>
+                    <label for="PW">PW : </label>
+                    <input type="password" name="" id="PW" class="input2" required maxlength="8">
+                </li>
+                <li>
+                    <label for="email">email : </label>
+                    <input type="email" name="" id="email" placeholder="eaxm@naver.com" class="input3">
+                </li>
+                <li>
+                    <label for="contry">
+                        국적 : 
+                    </label>
+                    <label for="in">
+                        내국인
+                    </label>
+                    <input type="radio" name="cut" id="in" checked>
+                    <label for="out">
+                        외국인 : 
+                    </label>
+                    <input type="radio" name="cut" id="out">
+                </li>
+                <li>
+                    <label for="search">
+                        search : 
+                    </label>
+                    <!-- disabled : 사용 못하게 설정해둘때 -->
+                    <input type="search" name="" id="search" disabled placeholder="웹디자인">
+                </li>
+                <li>
+                    <label for="url">
+                        url : 
+                    </label>
+                    <input type="url" name="" id="url" placeholder="https://">
+                </li>
+                <li>
+                    <label for="number">
+                        number : 
+                    </label>
+                    <input type="number" name="" id="number" min="1" max="10" value="2" step="1">
+                </li>
+                <li>
+                    <label for="tel">
+                        tel : 
+                    </label>
+                    <input type="tel" name="" id="tel" placeholder="010-1234-5678">
+                </li>
+                <li>
+                    <label for="range">
+                        range : 
+                    </label>
+                    <input type="range" name="" id="range" min="1" max="5" value="1">
+                </li>
+                <li>
+                    <label for="date">
+                        date : 
+                    </label>
+                    <input type="date" name="" id="date">
+                </li>
+                <li>
+                    <label for="color">
+                        color : 
+                    </label>
+                    <input type="color" name="" id="color">
+                </li>
+                <li>
+                    <label for="file">
+                        file : 
+                    </label>
+                    <input type="file" name="" id="file">
+                </li>
+                <li>
+                    <label for="">
+                        남기고 싶은 말 : 
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </li>
+                <li>
+                    <label for="">
+                        진행률 70%
+                    </label>
+                    <progress max="100" value="70"></progress>
+                </li>
+                <li>
+                    <label for="">
+                        사용량 50%
+                    </label>
+                    <meter value="50" max="100"></meter>
+                </li>
+                <li>
+                    <label for="">
+                        ID
+                    </label>
+                    <input type="text" placeholder="asdfsodf" readonly>
+                </li>
+            </ul>
+            <hr>
+            <input type="submit" value="로그인">
+            <!-- 폼 안의 데이터를 서버로 전송할때 -->
+            <input type="reset" value="취소">
+            <!-- 폼 안의 데이터를 지울때 -->
+        </fieldset>
+    </form>
+</body>
+</html>
