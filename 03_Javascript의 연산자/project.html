@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //변수선언
+        let esp = 10;
+        let mil = 170;
+        let syr = 50;
+        let whip = 60;
+
+        //계산
+        //라떼는 에스프레소 + 우유
+        let latte = esp + mil; // 에스프레소 + 우유
+        //모카는 라떼 + 시럽
+        let mocha = latte + syr; // 라떼 + 시럽
+        //휘핑크림이 있는 모카는 모카 + 휘핑크림
+        let mochaWithWhippedCream = mocha + whip; // 모카 + 휘핑크림
+
+        //출력
+        document.write("Espresso: " + esp + "kcal" + "<br>");
+        document.write("latte: " + latte + "kcal" + "<br>");
+        document.write("Mocha: " + mocha + "kcal" + "<br>");
+        document.write("Mocha with whipped cream: " + mochaWithWhippedCream + "kcal" + "<br>");
+    </script>
+</body>
+</html>
