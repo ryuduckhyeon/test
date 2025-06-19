@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 button {
@@ -63,14 +64,33 @@ a {
 
 .main {
     width: 100%;
-}
-
-.main .visual {
-    width: 100%;
     padding: 15px;
-    box-sizing: border-box;
 }
 
-.main .visual img {
+.main .swiper{
     width: 100%;
+}
+.main .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+
+.main .swiper .swiper-pagination{
+    width: 48px;
+    height: 22px;
+    background: rgba(30,30,30,0.3);
+    border-radius: 999px;
+    position: absolute;
+    /* position 위치 초기화 */
+    left: unset;
+    right: 15px;
+    top: 15px;
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+}
+.main .swiper .swiper-pagination .swiper-pagination-total{
+    color: #000;
+}
+.main .swiper .swiper-button-prev,.main .swiper .swiper-button-next, .main .swiper .swiper-scrollbar{
+    display: none;
 }
