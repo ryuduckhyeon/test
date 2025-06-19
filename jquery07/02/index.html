@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
@@ -27,8 +31,38 @@
         </p>
         <a href="#" class="go">로그인하기></a>
     </div>
-    <div class="visual">
-        <img src="./images/mainbanner_MO_20240812124432173.jpg" alt="메인이미지">
+    <!-- 메인영역 -->
+    <div class="main">
+        <!-- swiper 슬라이드 -->
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./images/mainbanner_MO_20240812124432173.jpg" alt="메인이미지1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/mintchoco.jpg" alt="메인이미지2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/mobile.jpg" alt="메인이미지3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/soup.jpg" alt="메인이미지4">
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
     </div>
     <div class="order">
         <ul class="order-list">

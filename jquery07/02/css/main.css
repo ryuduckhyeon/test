@@ -74,8 +74,41 @@ button{
     font-size: 16px;
     font-weight: 700;
 }
-.visual img{
+/* 메인영역 */
+.main{
     width: 100%;
+}
+.main .swiper{
+    width: 100%;
+}
+.main .swiper .swiper-wrapper{
+    width: 100%;
+}
+.main .swiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+}
+.main .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+.main .swiper .swiper-pagination{
+    width: 48px;
+    height: 22px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 999px;
+    position: absolute;
+    /* position 위치 초기화 */
+    left: unset;
+    right: 15px;
+    bottom: 15px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 22px;
+}
+.main .swiper .swiper-pagination .swiper-pagination-total{
+    color: rgba(255, 255, 255, 0.3);
+}
+.main .swiper .swiper-button-prev,.main .swiper .swiper-button-next, .main .swiper .swiper-scrollbar{
+    display: none;
 }
 .order{
     width: 100%;
