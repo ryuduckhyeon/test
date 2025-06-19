@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        생년월일을 선택해주세요
+    </p>
+
+    <script>
+                let year = "<select>"
+            for(
+                let i=2025;
+                i>=1900;
+                i--
+            ){
+                year=year+"<option>"+i+"년</option>"
+            }
+            year = year+"</select>"
+            document.write(year)
+
+                let month = "<select>"
+            for(
+                let i=1;
+                i<=12;
+                i++
+            ){
+                month=month+"<option>"+i+"월</option>"
+            }
+            month = month+"</select>"
+            document.write(month)
+
+        let day = "<select>"
+            for(
+                let i=1;
+                i<=31;
+                i++
+            ){
+                day=day+"<option>"+i+"일</option>"
+            }
+            day = day+"</select>"
+            document.write(day)
+    </script>
+</body>
+</html>
