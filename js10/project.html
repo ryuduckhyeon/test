@@ -31,5 +31,31 @@
         document.write(timetable["wed"]["wed_first"] + "<br>");
         document.write(timetable["wed"]["wed_second"] + "<br>");
     </script>
+    <br>
+    <div style="box-sizing: border-box; border: 1px solid #000;">
+        <script>
+            let book_info = ["책제목 : 소년이 온다", "가격 : 13,600원", "저자 : 한강", "출간일 : 2024년 12월 12일", "페이지수 : 216페이지"];
+            document.write(book_info[0] + "<br>");
+            document.write(book_info[1] + "<br>");
+            document.write(book_info[2] + "<br>");
+            document.write(book_info[3] + "<br>");
+            document.write(book_info[4] + "<br>");
+            document.write("<hr>");
+            let book_infomation = {
+                book_name : "책제목 : 소년이 온다",
+                book_price : "가격 : 13,600원",
+                book_writer : "저자 : 한강",
+                book_publication : "출간일 : 2024년 12월 12일",
+                book_page : "페이지수 : 216페이지"
+            };
+            for (
+                let key in book_info
+            ){
+                document.write(
+                    book_info[key] + "<br>"
+                )
+            }
+        </script>
+    </div>
 </body>
 </html>
