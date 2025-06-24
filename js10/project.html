@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let timetable = {
+            mon : {
+                mon_first : "1교시 : HTML",
+                mon_second : "2교시 : CSS",
+            },
+            tue : {
+                tue_first : "1교시 : JavaScript",
+                tue_second : "2교시 : J-Query",
+            },
+            wed : {
+                wed_first : "1교시 : 작품집",
+                wed_second : "2교시 : 포트폴리오",
+            }
+        };
+        document.write("<h3>월요일</h3> <br>");
+        document.write(timetable["mon"]["mon_first"] + "<br>");
+        document.write(timetable["mon"]["mon_second"] + "<br>");
+        document.write("<h3>화요일</h3> <br>");
+        document.write(timetable["tue"]["tue_first"] + "<br>");
+        document.write(timetable["tue"]["tue_second"] + "<br>");
+        document.write("<h3>수요일</h3> <br>");
+        document.write(timetable["wed"]["wed_first"] + "<br>");
+        document.write(timetable["wed"]["wed_second"] + "<br>");
+    </script>
+</body>
+</html>

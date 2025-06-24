@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let friend = {
+            name : "홍길동",
+            age : "20",
+            hobby : "운동",
+            favorite : "수학",
+        };
+        console.log(
+            friend
+        );
+        document.write(
+            friend.name + "<br>"
+        );
+        let school = {
+            name : "KD초등학교",
+            location : {
+                city : "서울",
+                street : "종로구 123",
+            },
+            grade : "16",
+        };
+
+        let zoo = {
+            lion : {
+                name : "킹",
+                age : 5,
+                character : "갈기가 멋져요"
+            },
+            gire : {
+                name : "길쭉이",
+                age : 3,
+                character : "목이 길어요"
+            },
+            판다 : {
+                name : "통통이",
+                age : 4,
+                character : "대나무를 좋아해요"
+            },
+        };
+        document.write("<hr>");
+        document.write(zoo["lion"]["name"] + "<br>");
+        document.write(zoo.lion.name + "<br>");
+    </script>
+</body>
+</html>
