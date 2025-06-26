@@ -1,0 +1,28 @@
+@charset "utf-8";
+.popup{
+    width: 400px;
+    height: 400px;
+    background: #ff9800;
+    color: #fff;
+    border: 1px solid #ff9800;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: none;
+}
+.popup h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.popup .close{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    background: #fff;
+    padding: 6px;
+}
