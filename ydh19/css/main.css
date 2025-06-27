@@ -75,7 +75,7 @@ main ul.other-contents>li>.notice_box {
     margin: 20px 10px;
     border: 1px solid var(--main_color);
     position: relative;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 main ul.other-contents>li>.notice_box>p {
