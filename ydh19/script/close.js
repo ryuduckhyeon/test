@@ -1,0 +1,10 @@
+$(function(){
+    $(".notice_box>.notice>li>.notice").click(function(){
+        $(".box").show();
+        $(".popup").show();
+    })
+    $(".close").click(function(){
+        $(".box").hide();
+        $(".popup").hide();
+    })
+})

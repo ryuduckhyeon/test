@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕", "malgun gothic", sans-serif;
+    font-size: 16px;
+}
+:root{
+    --main_color : #06D001;
+    --sub_color : #F76C5E;
+    --text_color : #333;
+    --background_color : #fff;
+    --logo : url("../images/logo.png");
+    --body_text_size : 16px;
+    --font_weight : 500;
+    --hover_font_weight : 700;
+}
