@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.btn_pause{
+    width: 53px;
+    height: 53px;
+    text-indent: -9999px;
+    background: url(../images/btn_stop.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn_pause.on{
+    width: 53px;
+    height: 53px;
+    text-indent: -9999px;
+    background: url(../images/btn_start.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
