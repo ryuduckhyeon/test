@@ -1,0 +1,5 @@
+@charset "utf-8";
+.section .inner .right .wrap .menu li.on a{
+    color: #000;
+    font-weight: 700;
+}
