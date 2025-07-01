@@ -27,16 +27,17 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.intro>.inner>.info>div{
+.intro>.inner>.info>.date>div{
     margin-bottom: 70px;
 }
-.intro>.inner>.info>div:last-child{
+.intro>.inner>.info>.date>div:last-child{
     margin-bottom: 0;
 }
 .intro>.inner>.info>.time>h3{
     font-size: 18px;
 }
-.intro>.inner>.info>.time>.clock{
+.intro>.inner>.info>.date>.time>.clock, 
+.intro>.inner>.info>.date>.day{
     font-size: 50px;
     font-weight: 900;
 }
