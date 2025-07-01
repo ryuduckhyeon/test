@@ -1,0 +1,16 @@
+@charset "utf-8";
+ul.menu{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+ul.menu>li{
+    cursor: pointer;
+    padding: 0 48px 24px;
+    font-size: 20px;
+}
+ul.menu>li.on{
+    border-bottom: 3px solid #000;
+}
