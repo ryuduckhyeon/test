@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+        //DOM 문서 객체 선택
+        let bbb = document.getElementById("box");
+        console.log(bbb);
+        bbb.innerHTML = "<strong>안녕하세요</strong>"
+        bbb.innerText = "<strong>안녕하세요</strong>"
+        bbb.textContent = "<strong>안녕하세요</strong>"
+    </script>
+</body>
+</html>

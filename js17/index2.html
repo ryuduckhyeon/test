@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            border: 3px solid #ff0000;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            font-weight: 900;
+            text-align: center;
+            line-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        let box = document.querySelector("div")
+        console.log("box")
+        let time = 0;
+        let sec = setInterval(function(){
+            time++;
+            box.innerHTML = time;
+            //document.write(`${time} 초가 지났습니다.<br>`)
+        },1000)
+        setTimeout(function(){
+            clearInterval(sec)
+        }, 10000)
+        let date = new Date();
+        console.log(date);
+        let year = date.getFullYear();
+        console.log(year);
+        let month = date.getMonth() +1;
+        console.log(month);
+        let day = date.getDate();
+        console.log(day);
+        let today = date.getDay();
+        console.log(today);
+        let hours = date.getHours();
+        console.log(hours);
+        let min = date.getMinutes();
+        console.log(min);
+        let second = date.getSeconds();
+        console.log(second);
+        let msec = date.getMilliseconds();
+        console.log(msec);
+    </script>
+</body>
+</html>
