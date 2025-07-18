@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/tabbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/tabbar.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <button class="m_all_btn">전체메뉴</button>
+        <h1>
+            <a href="../index.html">써브웨이로고</a>
+        </h1>
+        <button class="cart">
+            장바구니버튼
+        </button>
+    </div>
+    <h3>
+        로그인 후 서비스를 다양하게 이용해보세요
+    </h3>
+    <form id="loginForm">
+        <input 
+        type="text"
+        id="username"
+        placeholder="아이디"
+        required>
+        <input 
+        type="password"
+        id="password"
+        placeholder="비밀번호"
+        required>
+        <button
+        type="submit">
+        로그인
+        </button>
+    <p id="login_bottom">
+        <a href="#"
+        id="order_research">
+            비회원 주문조회
+        </a>
+        <a href="#"
+        id="sign_up">
+    회원가입
+</a>
+    </p>
+    </form>
+    <div class="tabbar">
+        <div class="tabnav">
+            <ul class="left_icon">
+                <li>
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house">홈</i>
+                        <p>
+                            home
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-bars">메뉴</i>
+                        <p>
+                            menu
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn_order">
+                <img src="../images/icon_app_gnb_subway.png" alt="서브웨이 주문 버튼">
+            </button>
+            <ul class="right_icon">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot">매장위치</i>
+                        <p>
+                            location
+                        </p>
+                    </a>
+                </li>
+                <li class="on">
+                    <a href="#">
+                        <i class="fa-solid fa-user">유저</i>
+                        <p>
+                            user
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

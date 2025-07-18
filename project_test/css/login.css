@@ -1,0 +1,53 @@
+@charset "utf-8";
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 40px auto;
+    text-align: center;
+}
+#loginForm{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    position: relative;
+}
+#loginForm>input{
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    font-size: 150%;
+    text-indent: 15px;
+}
+#loginForm>button{
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    font-size: 150%;
+    font-weight: 900;
+    color: #fff;
+    background: #108a3d;
+    border-radius: 10px;
+}
+#loginForm>button:hover{
+    color: #108a3d;
+    background: #fff;
+    border: 1px solid #108a3d;
+}
+#loginForm>#login_bottom{
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#loginForm>#login_bottom>a{
+    font-weight: bold;
+    color: #000;
+}
+#loginForm>#login_bottom>a:hover{
+    color: #108a3d;
+}
