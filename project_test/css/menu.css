@@ -20,18 +20,18 @@
     overflow-y: auto;
     left: -100%;
 }
-.m_side_wrap .m_login{
+.m_side_wrap>.m_login{
     width: 100%;
     height: 340px;
     background: #009223;
     padding: 20px 30px;
 }
-.m_side_wrap .m_login .m_header{
+.m_side_wrap>.m_login>.m_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.m_side_wrap .m_login .m_header>h1>a{
+.m_side_wrap>.m_login>.m_header>h1>a{
     display: block;
     width: 88px;
     height: 18px;
@@ -39,11 +39,11 @@
     background: url("../images/logo_sidemenu.png") no-repeat;
     background-size: 88px;
 }
-.m_side_wrap .m_login .m_header>ul{
+.m_side_wrap>.m_login>.m_header>ul{
     display: flex;
     align-items: center;
 }
-.m_side_wrap .m_login .m_header>ul>li:first-child>a{
+.m_side_wrap>.m_login>.m_header>ul>li:first-child>a{
     display: block;
     width: 40px;
     height: 40px;
@@ -51,7 +51,7 @@
     background-size: 40px;
     text-indent: -99999px;
 }
-.m_side_wrap .m_login .m_header>ul>li:last-child>a{
+.m_side_wrap>.m_login>.m_header>ul>li:last-child>a{
     display: block;
     width: 27px;
     height: 27px;
@@ -59,22 +59,22 @@
     background-size: 27px;
     text-indent: -99999px;
 }
-.m_side_wrap .m_login>p{
+.m_side_wrap>.m_login>p{
     color: #fff;
     font-size: 19px;
     line-height: 26px;
     margin-top: 24px;
 }
-.m_side_wrap .m_login>.login_btn{
+.m_side_wrap>.m_login>.login_btn{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 24px 0 10px;
 }
-.m_side_wrap .m_login>.login_btn>li{
+.m_side_wrap>.m_login>.login_btn>li{
     width: 48%;
 }
-.m_side_wrap .m_login>.login_btn>li>a{
+.m_side_wrap>.m_login>.login_btn>li>a{
     display: block;
     width: 100%;
     padding: 10px 0;
@@ -85,11 +85,11 @@
     font-weight: 500;
     color: #fff;
 }
-.m_side_wrap .m_login>.login_btn>li:last-child>a{
+.m_side_wrap>.m_login>.login_btn>li:last-child>a{
     background: #fff;
     color: #333;
 }
-.m_side_wrap .m_login>.nomember{
+.m_side_wrap>.m_login>.nomember{
     width: 100%;
     padding: 10px 0;
     background: #62ce07;
@@ -99,11 +99,11 @@
     color: #fff;
 }
 /* 퀵메뉴 영역 */
-.m_side_wrap .quick_menu{
+.m_side_wrap>.quick_menu{
     width: 100%;
     position: relative;
 }
-.m_side_wrap .quick_menu>ul{
+.m_side_wrap>.quick_menu>ul{
     width: 90%;
     background: #fff;
     border-radius: 28px 0 28px 0;
@@ -116,15 +116,15 @@
     transform: translateX(-50%);
     top: -45px;
 }
-.m_side_wrap .quick_menu>ul>li{
+.m_side_wrap>.quick_menu>ul>li{
     width: 30%;
 }
-.m_side_wrap .quick_menu>ul>li:first-child,
-.m_side_wrap .quick_menu>ul>li:nth-child(2),
-.m_side_wrap .quick_menu>ul>li:nth-child(3){
+.m_side_wrap>.quick_menu>ul>li:first-child,
+.m_side_wrap>.quick_menu>ul>li:nth-child(2),
+.m_side_wrap>.quick_menu>ul>li:nth-child(3){
     margin-bottom: 40px;
 }
-.m_side_wrap .quick_menu>ul>li>a{
+.m_side_wrap>.quick_menu>ul>li>a{
     display: block;
     width: 100%;
     display: flex;
@@ -132,10 +132,10 @@
     justify-content: center;
     align-items: center;
 }
-.m_side_wrap .quick_menu>ul>li>a>img{
+.m_side_wrap>.quick_menu>ul>li>a>img{
     width: 45px;
 }
-.m_side_wrap .quick_menu>ul>li>a>h4{
+.m_side_wrap>.quick_menu>ul>li>a>h4{
     font-size: 12px;
     font-weight: 900;
     color: #292929;
@@ -143,11 +143,11 @@
 }
 
 /* m_gnb 영역(아코디언) */
-.m_side_wrap .m_gnb{
+.m_side_wrap>.m_gnb{
     width: 100%;
     position: relative;
 }
-.m_side_wrap .m_gnb>ul{
+.m_side_wrap>.m_gnb>ul{
     width: 90%;
     position: absolute;
     left: 50%;
@@ -156,12 +156,12 @@
     border-radius: 28px 0 28px 0;
     overflow: hidden;
 }
-.m_side_wrap .m_gnb>ul>li{
+.m_side_wrap>.m_gnb>ul>li{
     width: 100%;
     margin-bottom: 2px;
     background: #fff;
 }
-.m_side_wrap .m_gnb>ul>li>a{
+.m_side_wrap>.m_gnb>ul>li>a{
     display: block;
     width: 100%;
     padding: 15px 20px;
@@ -169,7 +169,7 @@
     gap: 15px;
     position: relative;
 }
-.m_side_wrap .m_gnb>ul>li>a::after{
+.m_side_wrap>.m_gnb>ul>li>a::after{
     content: '';
     width: 10px;
     height: 10px;
@@ -182,7 +182,7 @@
     transform: translateY(-50%) rotate(45deg);
     transition: all 0.5s ease-in-out;
 }
-.m_side_wrap .m_gnb>ul>li>a.on::after{
+.m_side_wrap>.m_gnb>ul>li>a.on::after{
     content: ' ';
     width: 10px;
     height: 10px;
@@ -191,23 +191,23 @@
     border-left: none;
     transform: rotate(225deg);
 }
-.m_side_wrap .m_gnb>ul>li>a>img{
+.m_side_wrap>.m_gnb>ul>li>a>img{
     width: 26px;
     height: 26px;
 }
-.m_side_wrap .m_gnb>ul>li>a>h3{
+.m_side_wrap>.m_gnb>ul>li>a>h3{
     font-size: 16px;
     font-weight: 800;
     color: #292929;
 }
 /* 아코디언 2단메뉴 */
-.m_side_wrap .m_gnb>ul>li>.depth2{
+.m_side_wrap>.m_gnb>ul>li>.depth2{
     width: 100%;
     padding: 25px 61px;
     background: #fcfcfc;
     display: none;
 }
-.m_side_wrap .m_gnb>ul>li>.depth2>li>a{
+.m_side_wrap>.m_gnb>ul>li>.depth2>li>a{
     color: #292929;
     font-size: 14px;
     font-weight: 500;

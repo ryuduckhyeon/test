@@ -6,62 +6,62 @@
     background: #f6f6f6;
     box-sizing: border-box;
 }
-.banner .tit{
+.banner>.tit{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
-.banner .tit h2,.subcard h2{
+.banner>.tit h2,.subcard>h2{
     color: #292929;
     font-size: 18px;
     font-weight: bold;
 }
-.banner .tit a img{
+.banner>.tit>a>img{
     width: 10px;
 }
-.banner .menu_slide{
+.banner>.menu_slide{
     position: relative;
     padding-bottom: 40px;
 }
-.banner .menu_slide .slick-prev,
-.banner .menu_slide .slick-next{
+.banner>.menu_slide>.slick-prev,
+.banner>.menu_slide>.slick-next{
     display: none;
 }
-.banner .menu_slide li{
+.banner>.menu_slide>li{
     width: 50%;
     padding: 0 10px;
 }
-.banner .menu_slide li a{
+.banner>.menu_slide>li>a{
     display: block;
     width: 100%;
     height: 100%;
 }
-.banner .menu_slide li a .imgbox{
+.banner>.menu_slide>li>a>.imgbox{
     width: 100%;
     height: 100%;
     background: #fff;
     border-radius: 24px;
     overflow: hidden;
 }
-.banner .menu_slide li a .imgbox img{
+.banner>.menu_slide>li>a>.imgbox>img{
     width: 100%;
 }
-.banner .menu_slide li a .info{
+.banner>.menu_slide>li>a>.info{
     width: 100%;
     text-align: center;
     padding: 15px;
 }
-.banner .menu_slide li a .info h3{
+.banner>.menu_slide>li>a>.info>h3{
     font-size: 14px;
     color: #292929;
     margin-bottom: 5px;
 }
-.banner .menu_slide li a .info p{
+.banner>.menu_slide>li>a>.info>p{
     font-size: 12px;
     color: #999;
 }
-.banner .menu_slide li a .info p sup{
+.banner>.menu_slide>li>a>.info>p>sup{
     font-size: 6px;
 }
 /* 페이지버튼 */
@@ -73,10 +73,10 @@
     display: flex;
     gap: 8px;
 }
-.slick-dots li{
+.slick-dots>li{
     padding: 0 !important;
 }
-.slick-dots li button{
+.slick-dots>li>button{
     width: 6px;
     height: 6px;
     background: #bdbdbd;
@@ -84,6 +84,6 @@
     border-radius: 100%;
     box-sizing: border-box;
 }
-.banner .menu_slide .slick-dots li.slick-active button{
+.banner>.menu_slide>.slick-dots>li.slick-active>button{
     background: #009436;
 }

@@ -7,7 +7,7 @@
     border-bottom: 1px solid #f7f7f7;
     position: relative;
 }
-.header .m_all_btn{
+.header>.m_all_btn{
     width: 14px;
     height: 12px;
     background: url("../images/ico_mTopetc04.png") no-repeat;
@@ -17,13 +17,13 @@
     transform: translateY(-50%);
     text-indent: -99999px;
 }
-.header h1{
+.header>h1{
     position: absolute;
     left: 50%;
     top: 50%;
     margin: -12px 0 0 -60px;
 }
-.header h1 a{
+.header>h1>a{
     background: url("../images/logo_app.png") no-repeat;
     display: block;
     width: 120px;
@@ -31,7 +31,7 @@
     background-size: 120px 24px;
     text-indent: -99999px;
 }
-.header .cart{
+.header>.cart{
     background: url("../images/icon_cart.png") no-repeat;
     width: 25px;
     height: 26px;

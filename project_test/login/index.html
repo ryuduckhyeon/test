@@ -7,16 +7,162 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/subcard.css">
     <link rel="stylesheet" href="../css/tabbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../js/all.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/banner.js"></script>
+    <script src="../js/menu.js"></script>
     <script src="../js/tabbar.js"></script>
+
 </head>
 
 <body>
+        <!-- 백그라운드커버 -->
+    <div class="cover"></div>
+    <!-- 모바일메뉴 -->
+    <div class="m_side_wrap">
+        <!-- 로그인메뉴 -->
+        <div class="m_login">
+            <div class="m_header">
+                <h1><a href="../index.html">서브웨이모바일로고</a></h1>
+                <ul>
+                    <li><a href="#">설정버튼</a></li>
+                    <li class="m_close"><a href="#">닫기버튼</a></li>
+                </ul>
+            </div>
+            <p>로그인 해주세요<br>아직 회원이 아니신가요?</p>
+            <ul class="login_btn">
+                <li><a href="index.html">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <button class="nomember">비회원 주문조회</button>
+        </div>
+        <!-- 퀵메뉴 -->
+        <div class="quick_menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_01_fast.png" alt="퀵">
+                        <h4>FAST-SUB</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_02_home.png" alt="퀵">
+                        <h4>HOME-SUB</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_03_group.png" alt="퀵">
+                        <h4>단체주문</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_04_subcard.png" alt="퀵">
+                        <h4>써브카드</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_06_coupon.png" alt="퀵">
+                        <h4>쿠폰</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/quick_05_gift.png" alt="퀵">
+                        <h4>e-Gift</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 아코디언 메뉴 -->
+        <div class="m_gnb">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_menu.png" alt="gnb아이콘">
+                        <h3>메뉴소개</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">샌드위치</a></li>
+                        <li><a href="#">랩 · 기타</a></li>
+                        <li><a href="#">샐러드</a></li>
+                        <li><a href="#">아침메뉴</a></li>
+                        <li><a href="#">스마일 썹</a></li>
+                        <li><a href="#">단체메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_howto.png" alt="gnb아이콘">
+                        <h3>이용방법</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">써브웨이 이용방법</a></li>
+                        <li><a href="#">단체메뉴 이용방법</a></li>
+                        <li><a href="#">신선한 재료 소개</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_news.png" alt="gnb아이콘">
+                        <h3>새소식</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">이벤트 · 프로모션</a></li>
+                        <li><a href="#">뉴스 · 공지사항</a></li>
+                        <li><a href="#">광고영상</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_subway.png" alt="gnb아이콘">
+                        <h3>써브웨이</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">써브웨이 역사</a></li>
+                        <li><a href="#">써브웨이 약속</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_store.png" alt="gnb아이콘">
+                        <h3>가맹점</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">써브웨이 프렌차이즈</a></li>
+                        <li><a href="#">가맹관련 FAQ</a></li>
+                        <li><a href="#">자사안내</a></li>
+                        <li><a href="#">사업설명회(대표번호 02-797-5036)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../images/icon_app_gnb_customer.png" alt="gnb아이콘">
+                        <h3>고객센터</h3>
+                    </a>
+                    <ul class="depth2">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">미사용 모바일 상품권 재발급 요청서</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="header">
         <button class="m_all_btn">전체메뉴</button>
         <h1>
@@ -26,7 +172,7 @@
             장바구니버튼
         </button>
     </div>
-    <h3>
+    <h3 id="login_tit">
         로그인 후 서비스를 다양하게 이용해보세요
     </h3>
     <form id="loginForm">
